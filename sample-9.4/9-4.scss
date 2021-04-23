@@ -1,0 +1,19 @@
+@mixin apply-to-ie6-only {
+    * html {
+        @content;
+    }
+}
+@include apply-to-ie6-only {
+    #logo {
+        background-image: url(/logo.gif);
+    }
+}
+//  output:
+//  * html #logo {
+//     background-image: url(/logo.gif);
+//  }
+// 这里的@content就是代表的
+// #logo {
+//     background-image: url(/logo.gif);
+// }
+  

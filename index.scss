@@ -1,0 +1,16 @@
+a:hover {
+    color: red;
+}
+.link {
+    @extend a:hover;
+}
+
+a {
+    @extend .important;
+}
+.important {
+    color: red;
+    .error {
+        font-size: 12px;
+    }
+}
