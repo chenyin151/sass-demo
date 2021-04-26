@@ -1,0 +1,13 @@
+.disabled {
+    color: grey;
+    @extend a;
+}
+a {
+    font-size: 12px;
+}
+.important.error {
+    color: red;
+}
+.seriousError {
+    @extend .important.error;
+}

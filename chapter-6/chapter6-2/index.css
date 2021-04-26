@@ -1,0 +1,10 @@
+.disabled {
+  color: grey; }
+
+a, .disabled {
+  font-size: 12px; }
+
+.important.error, .seriousError {
+  color: red; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,6 @@
+.foo .bar {
+    @extend .baz;
+}
+.bip .baz {
+    color: red;
+}

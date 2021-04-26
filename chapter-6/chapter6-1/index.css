@@ -1,0 +1,8 @@
+.error, .seriousError {
+  color: red;
+  font-size: 12px; }
+
+.seriousError {
+  border: 1px solid red; }
+
+/*# sourceMappingURL=index.css.map */
